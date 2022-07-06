@@ -14,6 +14,15 @@ This guide assumes a basic understanding of working on a Linux based operating
 system using tools like apt-get, npm, yarn, curl. Docker knowledge is also
 helpful for making the best use of your Backstage installation.
 
+O tempo de Arquitetura montará uma planilha onde será definido o padrão do ambiente com os nomes adequados para:
+
+Sites de documentação de código aberto fáceis de manter.
+
+GKE
+PubSub
+Banco NoSQL
+Armazenar
+Contas de serviço
 If you are planning to contribute plugins or the project in general, we advise
 you to use the
 [Getting Started for Contributors](https://backstage.io/docs/getting-started/running-backstage-locally)

@@ -7,10 +7,7 @@ description: Documentation on How to get started with Backstage
 For most Backstage installations, installing the standalone app will bring you
 the best and most streamlined experience. In this guide you will:
 
-- Deploy Backstage Standalone with npm packages
-- Run Backstage Standalone with a SQLite in-memory database and demo content
-
-This guide assumes a basic understanding of working on a Linux based operating
+<img width="906" alt="codigohtml" src="https://user-images.githubusercontent.com/83523558/177605270-ebd4bd21-6879-41f8-a9da-03fab2c27f9a.png">This guide assumes a basic understanding of working on a Linux based operating
 system using tools like apt-get, npm, yarn, curl. Docker knowledge is also
 helpful for making the best use of your Backstage installation.
 

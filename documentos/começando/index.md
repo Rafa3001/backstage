@@ -13,7 +13,33 @@ the best and most streamlined experience. In this guide you will:
 This guide assumes a basic understanding of working on a Linux based operating
 system using tools like apt-get, npm, yarn, curl. Docker knowledge is also
 helpful for making the best use of your Backstage installation.
+Serviços de fachada (Dispatcher) O despachante realiza a transformação de Json baseado em templatesLT para que sejam plugados os conectores de projeto para cada utilização do Input ou Output da transformação do Json. Leia mais...
 
+Serviços de exposição de dados (Query connector) Recebendo os dados do Dispatcher Translate para realizar a busca do modelo de consulta informada na URL. O QueryConnector atualmente permite o cadastro de template para os bancos de dados Progress, PostgreSQL e MongoDB. Leia mais...
+
+Gerar a estrutura da API pelo Spring 
+O Spring Boot é um projeto da Spring para facilitar o processo de configuração e publicação de aplicações. Spring Initializr
+
+Estrutura do 
+Os projetos devem seguir o seguinte:
+
+Use como opções:
+
+Especialista
+Java
+Spring Boot
+Projeto(br.com.hdi)
+Dependências:
+
+Rede
+Atuador do
+Verificar as dependências necessárias para o GCP
+Principais estruturas do projeto 
+Controller expõe cada URI da API.
+Modelo entidades que representam as tabelas dos bancos.
+Repositório responsável pelo acesso aos dados.
+Classe de serviço de serviço ou negócio.
+Utils serviços ou definições comuns ao projeto
 If you are planning to contribute plugins or the project in general, we advise
 you to use the
 [Getting Started for Contributors](https://backstage.io/docs/getting-started/running-backstage-locally)

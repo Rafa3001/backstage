@@ -5,9 +5,7 @@ description: Documentation on How to get started with Backstage
 ---
 
 For most Backstage installations, installing the standalone app will bring you
-the best and most streamlined experience. In this guide you will:
-
-- Deploy Backstage Standalone with npm packages
+the best and most streamlined experience. In this guide you will:- Deploy hdi doc para fazer alterações em seu ambiente
 - Run Backstage Standalone with a SQLite in-memory database and demo content
 
 This guide assumes a basic understanding of working on a Linux based operating
